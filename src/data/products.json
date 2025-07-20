@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "name": "Kaos Polos Putih",
+    "price": 75000,
+    "image": "/assets/kaos-putih.jpg",
+    "description": "Kaos katun combed 30s, nyaman dipakai sehari-hari."
+  },
+  {
+    "id": "2",
+    "name": "Sepatu Sneakers Hitam",
+    "price": 250000,
+    "image": "/assets/sneakers-hitam.jpg",
+    "description": "Sneakers stylish untuk penampilan kasual."
+  }
+]
