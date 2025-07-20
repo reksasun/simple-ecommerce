@@ -1,14 +1,17 @@
-import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-export default function ProductCard({ product }) {
-  return (
-    <div className="card">
-      <img src={product.image} alt={product.name} />
-      <h3>{product.name}</h3>
-      <p>Rp {product.price.toLocaleString()}</p>
-      <Link to={`/product/${product.id}`}>
-        <button>Detail</button>
-      </Link>
-    </div>
-  );
+function ProductCard({ product }) {
+  /* ... */
 }
+
+ProductCard.propTypes = {
+  product: PropTypes.shape({
+    id:          PropTypes.string.isRequired,
+    name:        PropTypes.string.isRequired,
+    price:       PropTypes.number.isRequired,
+    image:       PropTypes.string.isRequired,
+    description: PropTypes.string,
+  }).isRequired,
+};
+
+export default ProductCard;
