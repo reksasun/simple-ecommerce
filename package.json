@@ -1,9 +1,5 @@
 {
   "homepage": "https://reksasun.github.io/simple-ecommerce",
-  // ...sisa package.json-mu
-}
-
-{
   "name": "simple-ecommerce",
   "version": "0.1.0",
   "private": true,
@@ -12,17 +8,15 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.7.0",
-    "react-scripts": "^0.0.0"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
-
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +38,7 @@
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.3.0"
+    "@testing-library/react": "^16.3.0",
+    "gh-pages": "^5.0.0"
   }
 }
