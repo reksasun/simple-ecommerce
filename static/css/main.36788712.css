@@ -1,0 +1,2 @@
+body{font-family:sans-serif;margin:0}.navbar{background:#333;color:#fff;display:flex;justify-content:space-between;padding:1rem}.navbar a{color:#fff;text-decoration:none}.grid{grid-gap:1rem;display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));padding:1rem}.card,.cart-item,.detail{border:1px solid #ddd;border-radius:8px;padding:1rem}.card img,.detail img{border-radius:4px;height:auto;width:100%}button{border:none;border-radius:4px;cursor:pointer;margin-top:.5rem;padding:.5rem 1rem}
+/*# sourceMappingURL=main.36788712.css.map*/
